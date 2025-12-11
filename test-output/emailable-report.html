@@ -1,0 +1,150 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "https://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml">
+<head>
+<meta charset='utf-8'>
+<title>TestNG Report</title>
+<style type="text/css">
+table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}
+td,th {border:1px solid #009;padding:.25em .5em}
+.result th {vertical-align:bottom}
+.param th {padding-left:1em;padding-right:1em}
+.param td {padding-left:.5em;padding-right:2em}
+.stripe td,.stripe th {background-color: #E6EBF9}
+.numi,.numi_attn {text-align:right}
+.total td {font-weight:bold}
+.passedodd td {background-color: #0A0}
+.passedeven td {background-color: #3F3}
+.skippedodd td {background-color: #CCC}
+.skippedodd td {background-color: #DDD}
+.failedodd td,.numi_attn {background-color: #F33}
+.failedeven td,.stripe .numi_attn {background-color: #D00}
+.stacktrace {white-space:pre;font-family:monospace}
+.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}
+</style>
+</head>
+<body>
+<table cellspacing="0" cellpadding="0" class="testOverview">
+<tr><th>Test</th><th>Methods<br/>Passed</th><th>Scenarios<br/>Passed</th><th># skipped</th><th># failed</th><th>Total<br/>Time</th><th>Included<br/>Groups</th><th>Excluded<br/>Groups</th></tr>
+<tr><td style="text-align:left;padding-right:2em"><a href="#t1">Home Page Tests</a></td><td class="numi">8</td><td class="numi">8</td><td class="numi">0</td><td class="numi">0</td><td class="numi">33.7 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr class="stripe"><td style="text-align:left;padding-right:2em"><a href="#t2">Registration Tests</a></td><td class="numi">5</td><td class="numi">5</td><td class="numi">0</td><td class="numi">0</td><td class="numi">40.8 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr><td style="text-align:left;padding-right:2em"><a href="#t3">Login Tests</a></td><td class="numi">5</td><td class="numi">5</td><td class="numi">0</td><td class="numi">0</td><td class="numi">45.4 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr class="stripe"><td style="text-align:left;padding-right:2em"><a href="#t4">Search Tests</a></td><td class="numi">8</td><td class="numi">8</td><td class="numi">0</td><td class="numi">0</td><td class="numi">49.5 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr><td style="text-align:left;padding-right:2em"><a href="#t5">Wishlist Tests</a></td><td class="numi">5</td><td class="numi">5</td><td class="numi">0</td><td class="numi">0</td><td class="numi">62.6 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr class="stripe"><td style="text-align:left;padding-right:2em"><a href="#t6">Checkout Tests</a></td><td class="numi">5</td><td class="numi">5</td><td class="numi">0</td><td class="numi">0</td><td class="numi">29.3 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr><td style="text-align:left;padding-right:2em"><a href="#t7">Cart Tests</a></td><td class="numi">8</td><td class="numi">8</td><td class="numi">0</td><td class="numi">0</td><td class="numi">75.8 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr class="total"><td>Total</td>
+<td class="numi">44</td><td class="numi">44</td><td class="numi">0</td><td class="numi">0</td><td class="numi">121.2 seconds</td><td colspan="2">&nbsp;</td></tr>
+</table>
+<table cellspacing="0" cellpadding="0" class="methodOverview" id="summary">
+<tr><th>Class</th><th>Method</th><th># of<br/>Scenarios</th><th>Start</th><th>Time<br/>(ms)</th></tr>
+<tr id="t1"><th colspan="5">Home Page Tests &#8212; passed</th></tr>
+<tr class="passedodd"><td rowspan="8">tests.HomePageTests</td><td><a href="#m1"><b>testHomePageLoads</b>  ("Verify home page loads successfully")</a></td><td class="numi">1</td><td>1765427776228</td><td class="numi">36</td></tr><tr class="passedodd"><td><a href="#m2"><b>testTabletsCategoryNavigation</b>  ("Verify tablets category navigation")</a></td><td class="numi">1</td><td>1765427804608</td><td class="numi">569</td></tr><tr class="passedodd"><td><a href="#m3"><b>testFeaturedProductsDisplay</b>  ("Verify featured products are displayed")</a></td><td class="numi">1</td><td>1765427780234</td><td class="numi">20</td></tr><tr class="passedodd"><td><a href="#m4"><b>testAddToCartFromHomePage</b>  ("Verify add to cart from home page")</a></td><td class="numi">1</td><td>1765427787441</td><td class="numi">321</td></tr><tr class="passedodd"><td><a href="#m5"><b>testAddToWishlistFromHomePage</b>  ("Verify add to wishlist from home page")</a></td><td class="numi">1</td><td>1765427791831</td><td class="numi">66</td></tr><tr class="passedodd"><td><a href="#m6"><b>testDesktopsCategoryNavigation</b>  ("Verify desktops category navigation")</a></td><td class="numi">1</td><td>1765427795728</td><td class="numi">693</td></tr><tr class="passedodd"><td><a href="#m7"><b>testLaptopsCategoryNavigation</b>  ("Verify laptops category navigation")</a></td><td class="numi">1</td><td>1765427800378</td><td class="numi">791</td></tr><tr class="passedodd"><td><a href="#m8"><b>testNavigationBar</b>  ("Verify navigation bar is displayed")</a></td><td class="numi">1</td><td>1765427783690</td><td class="numi">22</td></tr>
+<tr id="t2"><th colspan="5">Registration Tests &#8212; passed</th></tr>
+<tr class="passedodd"><td rowspan="5">tests.RegisterTests</td><td><a href="#m9"><b>testSuccessfulRegistration</b>  ("Verify successful registration with valid data")</a></td><td class="numi">1</td><td>1765427776079</td><td class="numi">2743</td></tr><tr class="passedodd"><td><a href="#m10"><b>testRegistrationWithExistingEmail</b>  ("Verify registration with existing email fails")</a></td><td class="numi">1</td><td>1765427782221</td><td class="numi">1697</td></tr><tr class="passedodd"><td><a href="#m11"><b>testRegistrationWithoutPrivacyPolicy</b>  ("Verify registration without accepting privacy policy")</a></td><td class="numi">1</td><td>1765427787432</td><td class="numi">11511</td></tr><tr class="passedodd"><td><a href="#m12"><b>testRegistrationWithNewsletter</b>  ("Verify registration with newsletter subscription")</a></td><td class="numi">1</td><td>1765427803768</td><td class="numi">2193</td></tr><tr class="passedodd"><td><a href="#m13"><b>testRegistrationWithoutNewsletter</b>  ("Verify registration without newsletter subscription")</a></td><td class="numi">1</td><td>1765427809821</td><td class="numi">2449</td></tr>
+<tr id="t3"><th colspan="5">Login Tests &#8212; passed</th></tr>
+<tr class="passedodd"><td rowspan="5">tests.LoginTests</td><td><a href="#m14"><b>testLoginWithEmptyEmail</b>  ("Verify login with empty email")</a></td><td class="numi">1</td><td>1765427781010</td><td class="numi">11097</td></tr><tr class="passedodd"><td><a href="#m15"><b>testLoginPageElements</b>  ("Verify login page elements are displayed")</a></td><td class="numi">1</td><td>1765427816330</td><td class="numi">505</td></tr><tr class="passedodd"><td><a href="#m16"><b>testLoginWithInvalidCredentials</b>  ("Verify login with invalid credentials")</a></td><td class="numi">1</td><td>1765427775925</td><td class="numi">1240</td></tr><tr class="passedodd"><td><a href="#m17"><b>testLoginWithEmptyPassword</b>  ("Verify login with empty password")</a></td><td class="numi">1</td><td>1765427796491</td><td class="numi">11035</td></tr><tr class="passedodd"><td><a href="#m18"><b>testForgotPasswordLink</b>  ("Verify forgot password link is accessible")</a></td><td class="numi">1</td><td>1765427811543</td><td class="numi">842</td></tr>
+<tr id="t4"><th colspan="5">Search Tests &#8212; passed</th></tr>
+<tr class="passedodd"><td rowspan="8">tests.SearchTests</td><td><a href="#m19"><b>testSearchInCategory</b>  ("Verify search in specific category")</a></td><td class="numi">1</td><td>1765427818803</td><td class="numi">11190</td></tr><tr class="passedodd"><td><a href="#m20"><b>testSortByPriceAscending</b>  ("Verify sort by price ascending")</a></td><td class="numi">1</td><td>1765427843892</td><td class="numi">1121</td></tr><tr class="passedodd"><td><a href="#m21"><b>testSearchWithValidProduct</b>  ("Verify search with valid product name")</a></td><td class="numi">1</td><td>1765427809082</td><td class="numi">740</td></tr><tr class="passedodd"><td><a href="#m22"><b>testGridView</b>  ("Verify grid view functionality")</a></td><td class="numi">1</td><td>1765427839041</td><td class="numi">909</td></tr><tr class="passedodd"><td><a href="#m23"><b>testSearchWithInvalidProduct</b>  ("Verify search with invalid product name")</a></td><td class="numi">1</td><td>1765427814262</td><td class="numi">559</td></tr><tr class="passedodd"><td><a href="#m24"><b>testSortByName</b>  ("Verify sort by name")</a></td><td class="numi">1</td><td>1765427848827</td><td class="numi">1104</td></tr><tr class="passedodd"><td><a href="#m25"><b>testListView</b>  ("Verify list view functionality")</a></td><td class="numi">1</td><td>1765427833992</td><td class="numi">729</td></tr><tr class="passedodd"><td><a href="#m26"><b>testSearchWithEmptyQuery</b>  ("Verify search with empty query")</a></td><td class="numi">1</td><td>1765427854131</td><td class="numi">545</td></tr>
+<tr id="t5"><th colspan="5">Wishlist Tests &#8212; passed</th></tr>
+<tr class="passedodd"><td rowspan="5">tests.WishListTests</td><td><a href="#m27"><b>testEmptyWishlistMessage</b>  ("Verify empty wishlist message")</a></td><td class="numi">1</td><td>1765427824836</td><td class="numi">615</td></tr><tr class="passedodd"><td><a href="#m28"><b>testAddProductToWishlist</b>  ("Verify adding product to wishlist")</a></td><td class="numi">1</td><td>1765427820986</td><td class="numi">65</td></tr><tr class="passedodd"><td><a href="#m29"><b>testMoveWishlistItemToCart</b>  ("Verify moving wishlist item to cart")</a></td><td class="numi">1</td><td>1765427854174</td><td class="numi">20710</td></tr><tr class="passedodd"><td><a href="#m30"><b>testWishListNavigation</b>  ("Verify wishlist page navigation")</a></td><td class="numi">1</td><td>1765427815754</td><td class="numi">1847</td></tr><tr class="passedodd"><td><a href="#m31"><b>testRemoveFromWishlist</b>  ("Verify removing item from wishlist")</a></td><td class="numi">1</td><td>1765427829427</td><td class="numi">20715</td></tr>
+<tr id="t6"><th colspan="5">Checkout Tests &#8212; passed</th></tr>
+<tr class="passedodd"><td rowspan="5">tests.CheckoutTests</td><td><a href="#m32"><b>testCheckoutWithoutTerms</b>  ("Verify checkout without agreeing to terms")</a></td><td class="numi">1</td><td>1765427882655</td><td class="numi">1277</td></tr><tr class="passedodd"><td><a href="#m33"><b>testGuestCheckout</b>  ("Verify guest checkout option")</a></td><td class="numi">1</td><td>1765427863548</td><td class="numi">1694</td></tr><tr class="passedodd"><td><a href="#m34"><b>testBillingDetailsValidation</b>  ("Verify billing details validation")</a></td><td class="numi">1</td><td>1765427874000</td><td class="numi">4226</td></tr><tr class="passedodd"><td><a href="#m35"><b>testCheckoutNavigation</b>  ("Verify checkout page navigation")</a></td><td class="numi">1</td><td>1765427858553</td><td class="numi">1231</td></tr><tr class="passedodd"><td><a href="#m36"><b>testCheckoutWithEmptyCart</b>  ("Verify checkout with empty cart")</a></td><td class="numi">1</td><td>1765427869176</td><td class="numi">998</td></tr>
+<tr id="t7"><th colspan="5">Cart Tests &#8212; passed</th></tr>
+<tr class="passedodd"><td rowspan="8">tests.CartTests</td><td><a href="#m37"><b>testCartDisplaysProducts</b>  ("Verify cart displays added products")</a></td><td class="numi">1</td><td>1765427827955</td><td class="numi">10742</td></tr><tr class="passedodd"><td><a href="#m38"><b>testInvalidCoupon</b>  ("Verify applying invalid coupon")</a></td><td class="numi">1</td><td>1765427881033</td><td class="numi">10662</td></tr><tr class="passedodd"><td><a href="#m39"><b>testAddProductToCart</b>  ("Verify adding product to cart")</a></td><td class="numi">1</td><td>1765427824223</td><td class="numi">313</td></tr><tr class="passedodd"><td><a href="#m40"><b>testUpdateQuantity</b>  ("Verify updating product quantity")</a></td><td class="numi">1</td><td>1765427857036</td><td class="numi">11519</td></tr><tr class="passedodd"><td><a href="#m41"><b>testRemoveFromCart</b>  ("Verify removing item from cart")</a></td><td class="numi">1</td><td>1765427842737</td><td class="numi">10720</td></tr><tr class="passedodd"><td><a href="#m42"><b>testEmptyCartMessage</b>  ("Verify empty cart message")</a></td><td class="numi">1</td><td>1765427871969</td><td class="numi">395</td></tr><tr class="passedodd"><td><a href="#m43"><b>testCartNavigation</b>  ("Verify cart page navigation")</a></td><td class="numi">1</td><td>1765427820517</td><td class="numi">356</td></tr><tr class="passedodd"><td><a href="#m44"><b>testContinueShopping</b>  ("Verify continue shopping button")</a></td><td class="numi">1</td><td>1765427876419</td><td class="numi">734</td></tr>
+</table>
+<h1>Home Page Tests</h1>
+<h2 id="m1">tests.HomePageTests:testHomePageLoads</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m2">tests.HomePageTests:testAddToWishlistFromHomePage</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m3">tests.HomePageTests:testTabletsCategoryNavigation</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m4">tests.HomePageTests:testFeaturedProductsDisplay</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m5">tests.HomePageTests:testDesktopsCategoryNavigation</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m6">tests.HomePageTests:testLaptopsCategoryNavigation</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m7">tests.HomePageTests:testNavigationBar</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m8">tests.HomePageTests:testAddToCartFromHomePage</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h1>Registration Tests</h1>
+<h2 id="m9">tests.RegisterTests:testSuccessfulRegistration</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m10">tests.RegisterTests:testRegistrationWithoutPrivacyPolicy</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m11">tests.RegisterTests:testRegistrationWithNewsletter</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m12">tests.RegisterTests:testRegistrationWithoutNewsletter</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m13">tests.RegisterTests:testRegistrationWithExistingEmail</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h1>Login Tests</h1>
+<h2 id="m14">tests.LoginTests:testLoginWithInvalidCredentials</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m15">tests.LoginTests:testLoginWithEmptyPassword</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m16">tests.LoginTests:testLoginWithEmptyEmail</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m17">tests.LoginTests:testLoginPageElements</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m18">tests.LoginTests:testForgotPasswordLink</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h1>Search Tests</h1>
+<h2 id="m19">tests.SearchTests:testGridView</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m20">tests.SearchTests:testSearchWithInvalidProduct</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m21">tests.SearchTests:testSortByName</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m22">tests.SearchTests:testListView</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m23">tests.SearchTests:testSearchWithEmptyQuery</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m24">tests.SearchTests:testSearchInCategory</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m25">tests.SearchTests:testSortByPriceAscending</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m26">tests.SearchTests:testSearchWithValidProduct</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h1>Wishlist Tests</h1>
+<h2 id="m27">tests.WishListTests:testEmptyWishlistMessage</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m28">tests.WishListTests:testAddProductToWishlist</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m29">tests.WishListTests:testMoveWishlistItemToCart</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m30">tests.WishListTests:testWishListNavigation</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m31">tests.WishListTests:testRemoveFromWishlist</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h1>Checkout Tests</h1>
+<h2 id="m32">tests.CheckoutTests:testBillingDetailsValidation</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m33">tests.CheckoutTests:testCheckoutWithoutTerms</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m34">tests.CheckoutTests:testCheckoutNavigation</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m35">tests.CheckoutTests:testCheckoutWithEmptyCart</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m36">tests.CheckoutTests:testGuestCheckout</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h1>Cart Tests</h1>
+<h2 id="m37">tests.CartTests:testCartDisplaysProducts</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m38">tests.CartTests:testInvalidCoupon</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m39">tests.CartTests:testRemoveFromCart</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m40">tests.CartTests:testEmptyCartMessage</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m41">tests.CartTests:testCartNavigation</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m42">tests.CartTests:testAddProductToCart</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m43">tests.CartTests:testUpdateQuantity</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m44">tests.CartTests:testContinueShopping</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+</body></html>
